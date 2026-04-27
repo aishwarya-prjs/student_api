@@ -27,4 +27,4 @@ def delete_student(student_id: int):
     deleted = services.delete_student(student_id)
     if not deleted:
         raise HTTPException(status_code=404, detail="Student not found")
-    return {"message": "Student deleted"}
+    return {"message": "Student deleted successfully"}

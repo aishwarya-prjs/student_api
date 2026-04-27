@@ -11,3 +11,7 @@ Simple FastAPI project for managing student records.
 ## Run
 
 uvicorn app.main:app --reload
+## Project Update
+
+- Added logging functionality
+- Improved API structure
